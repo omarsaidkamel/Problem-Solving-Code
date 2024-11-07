@@ -36,3 +36,15 @@ int main(){
   // cout<<n/1000<<(n/100)%10<<"\n"<<(n%100)/10<<"\n"<<n%10;
   return 0;
 }
+
+/*
+Q4
+4- Make a program that take from user a number (N) seconds then convert it into hours, minutes and second */
+#include<iostream>
+using namespace std;
+int main(){
+  int n;
+  cin>>n;
+  cout<<n/3600<<" : "<<(n%3600)/60<<" : "<<(n%3600)%60;
+  return 0;
+}
